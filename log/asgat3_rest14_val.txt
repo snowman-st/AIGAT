@@ -1,0 +1,2 @@
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.1
