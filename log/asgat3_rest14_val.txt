@@ -1,2 +1,76 @@
 repeat: 1
 optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.1
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.1
+max_test_acc: 0.77500		 max_test_f1: 0.66701
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.1
+max_test_acc: 0.77768		 max_test_f1: 0.66632
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.2
+max_test_acc: 0.77946		 max_test_f1: 0.68639
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.2
+max_test_acc: 0.78125		 max_test_f1: 0.68581
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.3
+max_test_acc: 0.78393		 max_test_f1: 0.68502
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.3
+max_test_acc: 0.77946		 max_test_f1: 0.68532
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.4
+max_test_acc: 0.78214		 max_test_f1: 0.68075
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.4
+max_test_acc: 0.78839		 max_test_f1: 0.69448
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.5
+max_test_acc: 0.78304		 max_test_f1: 0.68785
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:2	dropout:0.5
+max_test_acc: 0.76964		 max_test_f1: 0.65538
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.1
+max_test_acc: 0.78214		 max_test_f1: 0.68397
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.1
+max_test_acc: 0.79107		 max_test_f1: 0.68321
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.2
+max_test_acc: 0.78125		 max_test_f1: 0.68448
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.2
+max_test_acc: 0.78036		 max_test_f1: 0.68050
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.3
+max_test_acc: 0.78304		 max_test_f1: 0.68289
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.3
+max_test_acc: 0.77946		 max_test_f1: 0.67559
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.4
+max_test_acc: 0.78036		 max_test_f1: 0.66948
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.4
+max_test_acc: 0.76786		 max_test_f1: 0.64223
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.5
+max_test_acc: 0.77857		 max_test_f1: 0.66427
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:3	dropout:0.5
+max_test_acc: 0.76339		 max_test_f1: 0.63955
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:4	dropout:0.4
+max_test_acc: 0.79643		 max_test_f1: 0.69523
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:4	dropout:0.4
+max_test_acc: 0.78929		 max_test_f1: 0.68270
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:4	dropout:0.4
+max_test_acc: 0.79732		 max_test_f1: 0.69666
+repeat: 2
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:4	dropout:0.4
+max_test_acc: 0.80089		 max_test_f1: 0.69412
+repeat: 1
+optimizer:<class 'torch.optim.adam.Adam'>	learning_rate:0.001	hhead:4	dropout:0.4

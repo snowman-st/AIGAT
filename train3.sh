@@ -7,7 +7,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 2 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -17,7 +17,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 2 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -27,7 +27,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 2 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -37,7 +37,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 2 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -47,7 +47,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 2 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -57,7 +57,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 3 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -67,7 +67,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 3 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -77,7 +77,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 3 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -87,7 +87,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 3 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -97,7 +97,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 3 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -107,7 +107,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 4 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -117,7 +117,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 4 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -127,7 +127,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 4 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -137,7 +137,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 4 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -147,7 +147,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 4 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -157,7 +157,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 5 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -167,7 +167,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 5 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -177,7 +177,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 5 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -187,7 +187,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 5 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -197,7 +197,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 5 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -207,7 +207,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 6 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -217,7 +217,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 6 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -227,7 +227,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 6 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -237,7 +237,7 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 6 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/
 python train.py --model_name asgat3 \
 				--dataset rest14 \
 				--optimizer adam \
@@ -247,4 +247,4 @@ python train.py --model_name asgat3 \
 				--batch_size 32 \
 				--nheads 6 \
 				--device 3 \
-				--logfile log1\/
+				--logfile log3\/

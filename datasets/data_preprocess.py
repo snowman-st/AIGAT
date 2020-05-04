@@ -14,20 +14,22 @@ def clean_str(string):
     string = re.sub(r"[^A-Za-z0-9(),.;\-:!?$\'\`]", " ", string)
     string = re.sub(r"\'s", " \'s", string)
     string = re.sub(r"\'m", " am ", string)
-    string = re.sub(r"\' "," \' ",string)
     string = re.sub(r"\'ve", " have ", string)
     string = re.sub(r"n\'t", " not", string)
     string = re.sub(r"\'re", " \'re", string)
     string = re.sub(r"\'d", " \'d", string)
     string = re.sub(r"\'ll", " will", string)
-    string = re.sub(r"\,", " ,", string)
-    string = re.sub(r"\!", " !", string)
-    string = re.sub(r";"," ;",string)
-    string = re.sub(r":"," :",string)
-    string = re.sub(r"\.", " .", string)
-    string = re.sub(r"\(", " \(", string)
-    string = re.sub(r"\)", " \)", string)
-    string = re.sub(r"\?", " \?", string)
+    # string = re.sub(r"\' "," \' ",string)
+    string = re.sub(r"\,", " , ", string)
+    string = re.sub(r"\!", " ! ", string)
+    string = re.sub(r"\;"," ; ",string)
+    string = re.sub(r"\:"," : ",string)
+    string = re.sub(r"\\"," ",string)
+    string = re.sub(r"\.", " . ", string)
+    string = re.sub(r"\(", " ( ", string)
+    string = re.sub(r"\)", " ) ", string)
+    string = re.sub(r"\?", " ? ", string)
+    string = re.sub(r"\n"," ",string)
     string = re.sub(r"\s{2,}", " ", string)
     return string.strip()
 
@@ -74,14 +76,14 @@ def parse_sentence_term(basepath, outpath,lowercase=False):
                 sloted_text = re.sub(term,term_slot,text)
             except:
                 sloter_text = text[:int(start)] + ' ' + term_slot + ' ' + text[int(end):]
-            aspects.append(term)
+            aspects.append(clean_str(term))
             polarities.append(d[polarity])
             slot_texts.append(sloted_text)
         if len(aspects)==0:
             continue
         sentences_count += 1
         for i in range(len(aspects)):
-            f.write(re.sub('\n',' ',slot_texts[i])+'\n')
+            f.write(clean_str(slot_texts[i])+'\n')
             f.write(aspects[i]+'\n')
             f.write(str(polarities[i])+'\n')
             f.write(term_seg.join(aspects)+'\n')

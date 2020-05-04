@@ -166,7 +166,7 @@ if __name__ == '__main__':
     parser.add_argument('--learning_rate', default=0.001, type=float)
     parser.add_argument('--nheads',default=4,type=int)
     parser.add_argument('--alpha',default=0.2,type=float)
-    parser.add_argument('--dropout',default=0.6,type=float)
+    parser.add_argument('--dropout',default=0.4,type=float)
     parser.add_argument('--lamda',default=0.,type=float) 
     parser.add_argument('--l2reg', default=0.00001, type=float)
     parser.add_argument('--num_epoch', default=100, type=int)
@@ -177,7 +177,7 @@ if __name__ == '__main__':
     parser.add_argument('--polarities_dim', default=3, type=int)
     parser.add_argument('--save', default=False, type=bool)
     parser.add_argument('--seed', default=776, type=int)
-    parser.add_argument('--device', default=0, type=int)
+    parser.add_argument('--device', default=3, type=int)
     parser.add_argument('--logfile',default='log/',type=str)
     opt = parser.parse_args()
 
